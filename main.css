@@ -91,3 +91,72 @@ ul {
 
 
 /* end of header */
+/* start of welcome */
+
+.welcome{
+    padding: 100px 0;
+}
+
+.welcome-img{
+    float: left;
+    width: 50%;
+}
+
+.welcome-img img{
+    width: 550px;
+    height: 550px;
+}
+
+.welcome-desc{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.welcome-first-line, .weserve-first-line{
+    font-size:36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 182, 6);
+    font-style: italic;
+}
+
+.welcome-second-line, .weserve-second-line{
+    font-size:36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(19, 18, 48);
+    font-style: normal;
+}
+
+.normal-paragragh{
+    font-family: 'Robotot', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+.btn{
+    margin-top: 30px;
+    width: 300;
+    height:45px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-family: 'Robotot', sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    background-color: rgb(255, 182, 6);
+    border-color: rgb(255, 182, 6);
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color:#fff;
+    color:#000;
+    cursor: pointer;
+}
+
+/* end of welcome */
