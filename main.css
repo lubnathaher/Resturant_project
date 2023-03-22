@@ -12,3 +12,82 @@
 .clr{
     clear:both;
 }
+
+/* start of header */
+.header{
+    background-image: url(imgs/banner-bg.jpg);
+    height: 100vh ;
+    text-align:center;
+    padding-top: 15px;
+}
+
+.navbar{
+    background-color: #fff;
+    padding-top:30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.navbar .logo  img{
+    margin-bottom: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+.navbar .links {
+    float:right;
+    margin-right: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.navbar .links li{
+    margin-top: 15px;
+    float:left;
+
+}
+.navbar .links a{
+    color: rgb(19, 18, 48);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto',  sans-serif;
+    padding: 10px;
+
+}
+
+
+ .header-para {
+    font-family: 'Robotot', sans-serif;
+    font-size:16px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 250px;
+}
+
+.first-line{
+    font-size:60px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-style: italic;
+}
+
+ .different-color{
+    color: rgb(255, 182, 6);
+}
+
+.second-line{
+    font-size:60px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-style: normal;
+}
+
+
+/* end of header */
